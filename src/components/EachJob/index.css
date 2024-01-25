@@ -1,0 +1,82 @@
+.eachJob {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+.jobItemCont {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background-color: #272727;
+  color: white;
+}
+.companyLogoImg {
+  width: 100px;
+  height: 100px;
+}
+.imgCont {
+  align-self: center;
+  margin-right: 5px;
+}
+.iconsCont {
+  display: flex;
+  justify-content: space-between;
+}
+.starIcon {
+  align-self: center;
+  color: yellow;
+}
+.ratingPara {
+  padding-left: 5px;
+}
+.locationCont {
+  margin-right: 20px;
+}
+.headingCont {
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+}
+.flexDiv {
+  display: flex;
+}
+.desCont {
+  display: flex;
+  justify-content: space-between;
+}
+.websiteAnchor {
+  align-self: center;
+}
+.skillsCont {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.skillImg {
+  width: 50px;
+  height: 50px;
+}
+.similarJobsContainer {
+  color: white;
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .lifeAtComp {
+    display: flex;
+  }
+  .skillsCont {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 992px) {
+  .similarJobsContainer {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+  }
+}

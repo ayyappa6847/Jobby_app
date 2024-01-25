@@ -1,0 +1,9 @@
+.notFoundCont {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}

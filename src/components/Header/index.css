@@ -1,0 +1,67 @@
+.navContainer {
+  background-color: #272727;
+  color: white;
+  padding: 10px;
+  font-family: Roboto;
+}
+
+.navCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkItems {
+  display: flex;
+}
+
+.linkItem {
+  padding: 10px;
+}
+
+.logoutButton {
+  align-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: #6366f1;
+}
+
+.navLogoImage {
+  padding-left: 50px;
+  width: 200px;
+}
+
+@media screen and (max-width: 727px) {
+  .navCard {
+    display: none;
+  }
+}
+
+.smallNavCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallNavIcons {
+  display: flex;
+}
+
+.smallImageLogo {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.navButton {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 728px) {
+  .smallNavCard {
+    display: none;
+  }
+}

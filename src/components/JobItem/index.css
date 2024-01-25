@@ -1,0 +1,37 @@
+.jobItemCont {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background-color: #272727;
+}
+.companyLogoImg {
+  width: 100px;
+  height: 100px;
+}
+.imgCont {
+  align-self: center;
+  margin-right: 5px;
+}
+.iconsCont {
+  display: flex;
+  justify-content: space-between;
+}
+.starIcon {
+  align-self: center;
+  color: yellow;
+}
+.ratingPara {
+  padding-left: 5px;
+}
+.locationCont {
+  margin-right: 20px;
+}
+.headingCont {
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+}
+.flexDiv {
+  display: flex;
+}
